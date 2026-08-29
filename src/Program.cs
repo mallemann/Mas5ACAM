@@ -30,6 +30,7 @@ namespace Mas5ACAM
             Application.Run(new MainForm(args));
         }
 
+
         private static void Save(Form f, string path)
         {
             using (Bitmap bmp = new Bitmap(f.Width, f.Height))
