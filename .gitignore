@@ -1,0 +1,21 @@
+# Build- und Zwischenstaende - werden aus den Quellen neu erzeugt
+bin/
+obj/
+.vs/
+
+# Ausgabe des Publish-Laufs (die eigenstaendige Exe ist ueber 100 MB gross)
+Publish/
+
+# Das gebaute Setup
+InnoSetup/
+
+# Bilder und Protokolle aus dem Diagnosemodus
+*.diag.txt
+*.error.txt
+
+# models
+models/
+
+# Persoenliche Visual-Studio-Einstellungen - enthalten den lokalen Pfad
+# samt Windows-Benutzernamen und gehoeren jedem Entwickler selbst
+*.user

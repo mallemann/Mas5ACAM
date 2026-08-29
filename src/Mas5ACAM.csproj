@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Mas5ACAM</AssemblyName>
+    <RootNamespace>Mas5ACAM</RootNamespace>
+    <StartupObject>Mas5ACAM.Program</StartupObject>
+    <Deterministic>true</Deterministic>
+    <!-- Der Viewport wird ausschliesslich im Code erzeugt, nie im Designer -->
+    <NoWarn>$(NoWarn);WFO1000</NoWarn>
+    <Company>MAS</Company>
+    <Product>Mas5ACAM</Product>
+    <AssemblyTitle>Mas5ACAM - 5-Achsen CAM (X,Y,Z,A,C Tisch-Tisch)</AssemblyTitle>
+    <Version>1.0.0</Version>
+    <ApplicationHighDpiMode>PerMonitorV2</ApplicationHighDpiMode>
+  </PropertyGroup>
+
+</Project>
