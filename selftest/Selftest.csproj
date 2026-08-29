@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Mas5ACAM.Selftest</AssemblyName>
+    <RootNamespace>Mas5ACAM.Selftest</RootNamespace>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+
+  <!-- Der Rechenkern wird direkt aus src eingebunden; die WinForms-Dateien bleiben aussen vor. -->
+  <ItemGroup>
+    <Compile Include="..\src\Geometry.cs" />
+    <Compile Include="..\src\Mesh.cs" />
+    <Compile Include="..\src\MeshTopology.cs" />
+    <Compile Include="..\src\Workpiece.cs" />
+    <Compile Include="..\src\TriGrid.cs" />
+    <Compile Include="..\src\StlIo.cs" />
+    <Compile Include="..\src\ModelGenerator.cs" />
+    <Compile Include="..\src\Kinematics.cs" />
+    <Compile Include="..\src\MachineSettings.cs" />
+    <Compile Include="..\src\Toolpath.cs" />
+    <Compile Include="..\src\CamParameters.cs" />
+    <Compile Include="..\src\ToolCollision.cs" />
+    <Compile Include="..\src\ToolpathGenerator.cs" />
+    <Compile Include="..\src\BallDrop.cs" />
+    <Compile Include="..\src\ToolpathRaster.cs" />
+    <Compile Include="..\src\PostProcessor.cs" />
+    <Compile Include="Selftest.cs" />
+  </ItemGroup>
+
+</Project>
