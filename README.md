@@ -4,6 +4,7 @@ Windows-Desktop-Anwendung (C# / .NET 10, WinForms), die aus einem 3D-Modell eine
 **simultanen 5-Achs-Werkzeugweg** berechnet und daraus ein GCode-Programm schreibt.
 Die 3D-Darstellung ist ein eigener Software-Renderer auf GDI+ – **keine NuGet-Pakete,
 keine externen Abhängigkeiten**, gleiche Bauart wie `Code Projects\GCodeViewer`.
+Projektseite: https://masdrive.ch/myprojects/projects/mas5acam/
 
 ![Werkstückansicht](doc/werkstueckansicht.png)
 
